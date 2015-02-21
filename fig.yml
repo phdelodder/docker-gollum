@@ -1,0 +1,6 @@
+gollum:
+        build: .
+        ports: 
+              - "8000:4567"
+        volumes: 
+              -  ~/repos/devops-wiki:/root/wikidata
